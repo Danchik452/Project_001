@@ -9,8 +9,8 @@ dst_miles = 16_637_000_000
 spd_sond = 38241
 # speed of radio waves in miles per hour
 spd_waves = 299_792_458 * 2.24
-# number of days since September 25, 2009
 
+# number of days since September 25, 2009
 days = int(input())
 dst_miles += days * 24 * spd_sond
 # distance from sond to sun in kilometers
